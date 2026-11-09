@@ -20,7 +20,7 @@ export interface Product {
     category: Category;
 }
 
-export interface CarItem {
+export interface CartItem {
     product: Product;
     quantity: number;
 }
